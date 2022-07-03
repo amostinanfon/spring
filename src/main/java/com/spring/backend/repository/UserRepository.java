@@ -10,3 +10,4 @@ import com.spring.backend.model.User;
 public interface UserRepository extends JpaRepository<User, Long>{
 
 }
+ 
