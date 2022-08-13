@@ -1,7 +1,22 @@
-export default function App() {
+import React from 'react';
+import Analytics from './Components/Analytics';
+import Cards from     './Components/Cards';
+import Footer from    './Components/Footer';
+import Hero from      './Components/Hero';
+import Navbar from    './Components/Navbar';
+import Newsletter from './Components/Newsletter';
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Navbar />
+      <Hero />
+      <Analytics />
+      <Newsletter />
+      <Cards />
+      <Footer />
+    </div>
+  );
 }
+
+export default App;
